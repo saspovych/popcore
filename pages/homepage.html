@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style/homepage.css">
+		<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+		<title>Popcore - веб-плеер тяжелой музыки</title>
+	</head>
+	<body>
+		<main>
+			<div class="wrapper">
+				<div class="main__top">
+					<div class="main__undo_redo">
+						<div class="undo">
+							<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1.25 1.58332L7.66667 7.99999L1.25 14.4167" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</div>
+						<div class="redo">
+							<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1.25 1.58332L7.66667 7.99999L1.25 14.4167" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</div>
+					</div>
+					<div class="main__account">
+						<img src="../img/Avatar.png" alt="">
+						<span class="nickname">Tom</span>
+						<svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M0.234315 0.834321C0.546734 0.521901 1.05327 0.521901 1.36569 0.834321L4 3.46863L6.63431 0.834321C6.94673 0.521901 7.45327 0.521901 7.76569 0.834321C8.07811 1.14674 8.07811 1.65327 7.76569 1.96569L4.56569 5.16569C4.25327 5.47811 3.74673 5.47811 3.43431 5.16569L0.234315 1.96569C-0.0781049 1.65327 -0.0781049 1.14674 0.234315 0.834321Z" fill="#111827"/>
+						</svg>
+					</div>
+				</div>
+				<div class="main__recently_played">
+					<h2>Recently played</h2>
+					<div class="recentyle_played_cards">
+						<div class="card">
+							<img src="../img/premium.png" alt="album cover">
+							<h3>Welcome to Premium</h3>
+							<span>Welcome to Popcore Premium!</span>
+						</div>
+					</div>
+				</div>
+				<div class="main__chill">
+					<div class="chill_title">
+						<div class="title">
+							<h2>Chill</h2>
+							<span class="subtitle">Unwind with these calming playlists.</span>
+						</div>
+						<div class="chill_see_all">
+							<a href="">SEE ALL</a>
+						</div>
+					</div>
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="card" onclick="cardPlay(brandOfSacrifice)">
+									<img src="../music/Brand Of Sacrifice/Cover.jpg" alt="album cover">
+									<h3>Lifeblood</h3>
+									<span class="description">Brand of Sacrifice</span>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card" onclick="cardPlay(orbitCulture)">
+									<img src="../music/Orbit Culture - Nija/Cover.jpg" alt="album cover">
+									<h3>Nija</h3>
+									<span class="description">Orbit Culture</span>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card">
+									<img src="../img/premium.png" alt="album cover">
+									<h3>Welcome to Premium</h3>
+									<span class="description">Welcome to Popcore Premium!</span>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card">
+									<img src="../img/premium.png" alt="album cover">
+									<h3>Welcome to Premium</h3>
+									<span class="description">Welcome to Popcore Premium!</span>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card">
+									<img src="../img/premium.png" alt="album cover">
+									<h3>Welcome to Premium</h3>
+									<span class="description">Welcome to Popcore Premium!</span>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card">
+									<img src="../img/premium.png" alt="album cover">
+									<h3>Welcome to Premium</h3>
+									<span class="description">Welcome to Popcore Premium!</span>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card">
+									<img src="../img/premium.png" alt="album cover">
+									<h3>Welcome to Premium</h3>
+									<span class="description">Welcome to Popcore Premium!</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main__chill">
+					<div class="chill_title">
+						<div class="title">
+							<h2>Chill</h2>
+							<span class="subtitle">Unwind with these calming playlists.</span>
+						</div>
+						<div class="chill_see_all">
+							<a href="">SEE ALL</a>
+						</div>
+					</div>
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="card">
+									<img src="../img/premium.png" alt="album cover">
+									<h3>Welcome to Premium</h3>
+									<span class="description">Welcome to Popcore Premium!</span>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card">
+									<img src="../img/premium.png" alt="album cover">
+									<h3>Welcome to Premium</h3>
+									<span class="description">Welcome to Popcore Premium!</span>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card">
+									<img src="../img/premium.png" alt="album cover">
+									<h3>Welcome to Premium</h3>
+									<span class="description">Welcome to Popcore Premium!</span>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card">
+									<img src="../img/premium.png" alt="album cover">
+									<h3>Welcome to Premium</h3>
+									<span class="description">Welcome to Popcore Premium!</span>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card">
+									<img src="../img/premium.png" alt="album cover">
+									<h3>Welcome to Premium</h3>
+									<span class="description">Welcome to Popcore Premium!</span>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card">
+									<img src="../img/premium.png" alt="album cover">
+									<h3>Welcome to Premium</h3>
+									<span class="description">Welcome to Popcore Premium!</span>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card">
+									<img src="../img/premium.png" alt="album cover">
+									<h3>Welcome to Premium</h3>
+									<span class="description">Welcome to Popcore Premium!</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<aside>
+			<div class="wrapper">
+				<div class="aside__logo">
+					<div class="popcore">Popcore<span>R</span></div>
+				</div>
+				<div class="aside__first_section">
+					<nav>
+						<ul>
+							<li class="active">
+								<svg class="fill" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M10.8484 0.751466C10.3798 0.282837 9.62 0.282837 9.15137 0.751466L0.751374 9.15147C0.282745 9.62009 0.282745 10.3799 0.751374 10.8485C1.22 11.3172 1.9798 11.3172 2.44843 10.8485L2.7999 10.497V18.4C2.7999 19.0627 3.33716 19.6 3.9999 19.6H6.3999C7.06264 19.6 7.5999 19.0627 7.5999 18.4V16C7.5999 15.3373 8.13716 14.8 8.7999 14.8H11.1999C11.8626 14.8 12.3999 15.3373 12.3999 16V18.4C12.3999 19.0627 12.9372 19.6 13.5999 19.6H15.9999C16.6626 19.6 17.1999 19.0627 17.1999 18.4V10.497L17.5514 10.8485C18.02 11.3172 18.7798 11.3172 19.2484 10.8485C19.7171 10.3799 19.7171 9.62009 19.2484 9.15147L10.8484 0.751466Z" fill="#6B7280"/>
+								</svg>
+								Home
+							</li>
+							<li>
+								<svg class="stroke" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M19 19L13 13M15 8C15 11.866 11.866 15 8 15C4.13401 15 1 11.866 1 8C1 4.13401 4.13401 1 8 1C11.866 1 15 4.13401 15 8Z" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								Search
+							</li>
+							<li>
+								<svg class="stroke" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M1 3C1 1.89543 1.89543 1 3 1H5C6.10457 1 7 1.89543 7 3V5C7 6.10457 6.10457 7 5 7H3C1.89543 7 1 6.10457 1 5V3Z" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M11 3C11 1.89543 11.8954 1 13 1H15C16.1046 1 17 1.89543 17 3V5C17 6.10457 16.1046 7 15 7H13C11.8954 7 11 6.10457 11 5V3Z" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M1 13C1 11.8954 1.89543 11 3 11H5C6.10457 11 7 11.8954 7 13V15C7 16.1046 6.10457 17 5 17H3C1.89543 17 1 16.1046 1 15V13Z" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M11 13C11 11.8954 11.8954 11 13 11H15C16.1046 11 17 11.8954 17 13V15C17 16.1046 16.1046 17 15 17H13C11.8954 17 11 16.1046 11 15V13Z" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								Your Library
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="aside__second_section">
+					<nav>
+						<ul>
+							<li>
+								<svg class="fill" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M9.9999 19.6C15.3018 19.6 19.5999 15.3019 19.5999 9.99999C19.5999 4.69806 15.3018 0.399994 9.9999 0.399994C4.69797 0.399994 0.399902 4.69806 0.399902 9.99999C0.399902 15.3019 4.69797 19.6 9.9999 19.6ZM11.1999 6.39999C11.1999 5.73725 10.6626 5.19999 9.9999 5.19999C9.33715 5.19999 8.7999 5.73725 8.7999 6.39999V8.79999H6.3999C5.73716 8.79999 5.1999 9.33725 5.1999 9.99999C5.1999 10.6627 5.73716 11.2 6.3999 11.2H8.7999V13.6C8.7999 14.2627 9.33715 14.8 9.9999 14.8C10.6626 14.8 11.1999 14.2627 11.1999 13.6V11.2H13.5999C14.2626 11.2 14.7999 10.6627 14.7999 9.99999C14.7999 9.33725 14.2626 8.79999 13.5999 8.79999H11.1999V6.39999Z" fill="#6B7280"/>
+								</svg>
+								Create Playlist
+							</li>
+							<li>
+								<svg class="stroke" width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M2.31802 2.31802C0.56066 4.07538 0.56066 6.92462 2.31802 8.68198L10.0001 16.364L17.682 8.68198C19.4393 6.92462 19.4393 4.07538 17.682 2.31802C15.9246 0.56066 13.0754 0.56066 11.318 2.31802L10.0001 3.63609L8.68198 2.31802C6.92462 0.56066 4.07538 0.56066 2.31802 2.31802Z" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								Liked Songs
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="aside__premium_link">
+					<div class="link_text">
+						Welcome to Premium
+					</div>
+				</div>
+			</div>
+		</aside>
+		<div class="player">
+			<div class="wrapper">
+				<audio id="player" src="../music/Brand Of Sacrifice/01. Dawn.mp3"></audio>
+				<div class="wrapper__audio_player">
+					<div class="track_info">
+						<img src="../music/Brand Of Sacrifice/Cover.jpg" alt="cover" id="mini_cover_album">
+						<div class="text">
+							<span id="track_name">Dawn</span><br>
+							<span id="track_author">Brand of Sacrifice</span>
+						</div>
+						<svg id="like" onclick="likeTreck()" width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1.87868 2.21202C0.707107 3.3836 0.707107 5.28309 1.87868 6.45466L7.00004 11.576L12.1213 6.45466C13.2929 5.28309 13.2929 3.3836 12.1213 2.21202C10.9497 1.04045 9.05025 1.04045 7.87868 2.21202L7.00004 3.09074L6.12132 2.21202C4.94975 1.04045 3.05025 1.04045 1.87868 2.21202Z" stroke="#6B7280" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+					</div>
+					<div class="buttons_slider">
+						<div class="audio_control">
+							<div onclick="previous()">
+								<svg width="17" height="22" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M6 10.6666L1.33333 5.99998L6 1.33331" stroke="#6B7280" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+							</div>
+							<div onclick="shufflePlaylist()">
+								<svg id="shuffle" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M4.33334 3.66667L12.3333 3.66667M12.3333 3.66667L9.66668 1M12.3333 3.66667L9.66668 6.33333M9.66668 10.3333L1.66668 10.3333M1.66668 10.3333L4.33334 13M1.66668 10.3333L4.33334 7.66667" stroke="#6B7280" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+							</div>
+							<div class="play_pause" onclick="changeStatusPlayPause()">
+								<svg version="1.1" id="pause" class="hidden" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="277.338px" height="277.338px" viewBox="0 0 277.338 277.338" style="enable-background:new 0 0 277.338 277.338;" xml:space="preserve">
+									<g>
+										<path d="M14.22,45.665v186.013c0,25.223,16.711,45.66,37.327,45.66c20.618,0,37.339-20.438,37.339-45.66V45.665
+											c0-25.211-16.721-45.657-37.339-45.657C30.931,0,14.22,20.454,14.22,45.665z"/>
+										<path d="M225.78,0c-20.614,0-37.325,20.446-37.325,45.657V231.67c0,25.223,16.711,45.652,37.325,45.652s37.338-20.43,37.338-45.652
+											V45.665C263.109,20.454,246.394,0,225.78,0z"/>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+								</svg>
+								<svg version="1.1" id="play" class="visible" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="45.974px" height="45.975px" viewBox="0 0 45.974 45.975" style="enable-background:new 0 0 45.974 45.975;" xml:space="preserve">
+									<g>
+										<g>
+											<g>
+												<path d="M9.629,44.68c-1.154,1.16-2.895,1.51-4.407,0.885c-1.513-0.623-2.5-2.1-2.5-3.735V4.043c0-1.637,0.987-3.112,2.5-3.736
+													c1.513-0.625,3.253-0.275,4.407,0.885l17.862,17.951c2.088,2.098,2.088,5.488,0,7.585L9.629,44.68z"/>
+											</g>
+											<g>
+												<g>
+													<path d="M38.252,45.975c-2.763,0-5-2.238-5-5V5c0-2.762,2.237-5,5-5c2.762,0,5,2.238,5,5v35.975
+														C43.252,43.736,41.013,45.975,38.252,45.975z"/>
+												</g>
+											</g>
+										</g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+									<g>
+									</g>
+								</svg>
+							</div>
+							<div onclick="repeatPlaylist()">
+								<svg id="repeat" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M1.66666 1.66669V5.00002H2.05433M12.2921 6.33335C11.964 3.70248 9.71973 1.66669 6.99999 1.66669C4.76174 1.66669 2.84552 3.04547 2.05433 5.00002M2.05433 5.00002H4.99999M12.3333 12.3334V9.00002H11.9456M11.9456 9.00002C11.1545 10.9546 9.23824 12.3334 6.99999 12.3334C4.28024 12.3334 2.03598 10.2976 1.70792 7.66669M11.9456 9.00002H8.99999" stroke="#6B7280" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+							</div>
+							<div onclick="next()">
+								<svg id="next" width="17" height="22" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M1.25 1.58332L7.66667 7.99999L1.25 14.4167" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+							</div>
+						</div>
+						<div class="wrapper__seek_slider">
+							<span id="current_time">0:00</span>
+							<input type="range" id="seek_slider" min="0" max="100" value="0">
+							<span id="duration">0:00</span>
+						</div>
+					</div>
+					<div class="volume_wrapper">
+						<div class="volume_hover_wrapper">
+							<svg class="active" id="volumator" onclick="mute()" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M9.35701 4.643C10.6588 5.94474 10.6588 8.05529 9.35701 9.35704M11.2427 2.75733C13.5858 5.10048 13.5858 8.89947 11.2427 11.2426M2.72386 9.00004H1.66667C1.29848 9.00004 1 8.70157 1 8.33338V5.66671C1 5.29852 1.29848 5.00004 1.66667 5.00004H2.72386L5.86193 1.86197C6.28191 1.442 7 1.73944 7 2.33338V11.6667C7 12.2606 6.28191 12.5581 5.86193 12.1381L2.72386 9.00004Z" stroke="#6B7280" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+							<input type="range" id="volume" min="0" max="1" step="0.01" value="1" oninput="changeVolume()">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+		<script src="js/homepage.js"></script>
+	</body>
+</html>
